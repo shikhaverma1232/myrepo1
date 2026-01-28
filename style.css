@@ -1,0 +1,44 @@
+/* --- Basic CSS Reset --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures padding/border is included in element's total width/height */
+}
+
+/* --- Body Styles (applied globally) --- */
+body {
+    font-family: sans-serif; /* Use a common, clean font */
+    background-color: rgb(137, 4, 79);/* Light gray background */
+    color: #200a8e; /* Dark gray text color */
+    line-height: 1.6; /* Improve readability with increased line spacing */
+    padding: 20px; /* Space around the content */
+}
+
+/* --- Heading Styles --- */
+h1 {
+    color: #5100b3; /* Blue color for main heading */
+    text-align: center; /* Center the heading text */
+    margin-bottom: 15px; /* Space below the heading */
+}
+
+h2 {
+    color: #120101;
+    border-bottom: 2px solid #1cab70; /* A line under the subheadings */
+    padding-bottom: 5px;
+    margin-top: 25px;
+}
+/* --- Paragraph Styles --- */
+p {
+    font-size: 16px; /* Standard font size */
+    margin-bottom: 10px; /* Space below paragraphs */
+}
+
+/* --- Link Styles --- */
+a {
+    color: #0056b3;
+    text-decoration: none; /* Remove default underlines from links */
+}
+
+a:hover {
+    text-decoration: underline; /* Add underline on hover for better user experience */
+}
